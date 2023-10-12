@@ -5,7 +5,7 @@ const Hero=()=>{
         <>
         
 <div className="relative top-16">
-<img src="https://images.ctfassets.net/37vwfxlcawdb/1TfE1UU6y8uJw1qSaSGma6/2ff488f042edf4fe6a7ce60a33c3abca/Startsida.jpg?q=50&fm=avif&w=1200"  className=" relative z-0 bg-contain  " alt="" srcset="" />
+<img src="https://images.ctfassets.net/37vwfxlcawdb/1TfE1UU6y8uJw1qSaSGma6/2ff488f042edf4fe6a7ce60a33c3abca/Startsida.jpg?q=50&fm=avif&w=1200"  className=" relative z-0 w-full " alt="" srcset="" />
 </div>
 
 
