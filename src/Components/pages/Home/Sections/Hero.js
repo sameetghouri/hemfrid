@@ -1,4 +1,4 @@
-
+// import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
 const Hero=()=>{
 
     return(
@@ -9,7 +9,7 @@ const Hero=()=>{
 </div>
 
 
-<div className=" z-0 absolute top-44 ml-12 text-white text-5xl font-medium font-['Young Serif']">
+<div className=" z-0 absolute top-44 ml-20 text-white text-5xl font-medium font-['Young Serif']">
 
     <p>More quality of</p>
     
@@ -27,8 +27,11 @@ const Hero=()=>{
 </div>
  <div className="text-xl mt-10 flex items-start font-normal">
 
+
+ {/* <CheckCircleOutlineIcon /> */}
+
     <ul>
-        <li>Customized for you  &nbsp;</li>
+        <li>   Customized for you  &nbsp;</li>
         <li className="mt-4">Collective agreement</li>
         <li className="mt-4">Insured &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</li>
     
