@@ -17,9 +17,9 @@ const WhyHermified=()=>{
 {/* row begins */}
 <div className="   mt-14 mx-24 h-fit    pb-24  ">
 
-    <div className="flex flex-row justify-between">
+    <div className="flex sm:flex-row flex-col justify-between">
 {/* first row */}
-<div className="flex flex-col ">
+<div className="flex my-3 sm:my-0 flex-col ">
 
 
     <div className=" ml-1 flex  flex-col items-center justify-center">
@@ -49,7 +49,7 @@ const WhyHermified=()=>{
 </div>
 
 {/* second row */}
-<div className="flex flex-col ">
+<div className="flex flex-col my-3 sm:my-0 ">
 
 
     <div className=" ml-1 flex  flex-col items-center justify-center">
@@ -80,7 +80,7 @@ const WhyHermified=()=>{
 
 {/* Third row */}
 
-<div className="flex flex-col ">
+<div className="flex  my-3 sm:my-0 flex-col">
 
 
     <div className=" ml-1 flex  flex-col items-center justify-center">

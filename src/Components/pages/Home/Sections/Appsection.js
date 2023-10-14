@@ -11,7 +11,7 @@ return(
 <div className=" w-1/2 bg-[#dde6e0]">
  {/* Second half content */}
 
-<div className="w-3/4 border-indigo-700 border-2 h-3/4 mx-16 my-16 flex items-start">
+<div   className="w-3/4 border-indigo-700 border-2 h-3/4 mx-16 my-16 flex items-start">
 <h1>Get more done with <br /> <span className="flex items-start">our app</span> </h1>
 </div>
 
