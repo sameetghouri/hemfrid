@@ -1,48 +1,55 @@
-
-
 const Navbar=()=>{
 
-    return (
-        <>
+return (
+<>
 
-<nav class="w-screen bg-[#eae8e1] h-[75px] mt-[.3px] z-10  flex   items-center px-5   justify-between fixed ">
-<div className="cursor-pointer ">
-   <p className="text-2xl lg:text-2xl xl:text-2xl">GrönFlytt & Städ</p> 
-   
-</div>
+    <nav class="w-screen bg-[#eae8e1] h-[75px] mt-[.3px] z-10  flex   items-center px-5   justify-between fixed ">
+        <div className="cursor-pointer ">
+            <p className="text-2xl  lg:text-2xl xl:text-2xl"><img
+                    src="https://www.hemfrid.se/_next/static/media/logo-horizontal.225a413c.svg" className="h-10" alt=""
+                    srcset="" /></p>
 
-<ul className="lg:flex cursor-pointer lg:text-lg lg:ml-3 xl:text-sm 2xl:text-xl  hidden  md:text-sm pr-9">
+        </div>
 
-<li className="mx-4  xl:mx-2  2xl:mx-8 hover:bg-blue  ">Cleaning</li>
-<li className="mx-4 xl:mx-2   2xl:mx-8 ">Moving</li>
-<li className="mx-4 xl:mx-2 2xl:mx-8 ">Gardening</li>
-<li className="mx-4 xl:mx-2 2xl:mx-8  ">More Services</li>
-<li className="mx-4 xl:mx-2  2xl:mx-8 ">For Bussiness</li>
-<li className="mx-4 xl:mx-2 2xl:mx-8">Our locations</li>
+        <ul
+            className="lg:flex cursor-pointer mr-16 border  lg:text-lg lg:ml-3 xl:text-lg 2xl:text-xl  hidden  md:text-sm pr-9 relative">
+            <p className="inline-block relative  py-3">
+                <li
+                    className="mx-4 w-fit xl:mx-3   2xl:mx-8 hover:bg-blue  transition-all duration-500 before:content-[''] before:absolute before:bottom-0 before:left-0 before:w-0 before:h-0.5 before:rounded-full before:opacity-0 before:transition-all before:duration-500 before:bg-gradient-to-r     before:from-pink-700 before:via-pink-700 before:to-pink-700 hover:before:w-full hover:before:opacity-100  ">
+                    Cleaning</li>
+            </p>
+<p className="inline-block relative  py-3">
+    <li className="mx-4 xl:mx-3   2xl:mx-8 transition-all duration-500 before:content-[''] before:absolute before:bottom-0 before:left-0 before:w-0 before:h-1.5 before:rounded-full before:opacity-0 before:transition-all before:duration-500 before:bg-gradient-to-r     before:from-white before:via-red-200 before:to-red-400 hover:before:w-full hover:before:opacity-100">Moving</li>
+</p>
+           
+            <li className="mx-4 xl:mx-3 2xl:mx-8 ">Gardening</li>
+            <li className="mx-4 xl:mx-3 2xl:mx-8  ">More Services</li>
+            <li className="mx-4 xl:mx-3  2xl:mx-8 ">For Bussiness</li>
+            <li className="mx-4 xl:mx-3 2xl:mx-8">Our locations</li>
 
-<li className="mx-2   ">About Hemrfied</li>
-
-
-
-</ul>
-
-<div className="lg:flex items-center mr-3   hidden  2xl:text-2xl" >
-    <p  className="cursor-pointer inline-block  mx-2">SV </p>
-
-    <div className="inline-block border-r border-zinc-400   h-12 mx-2"></div>
-        
-        <p className="cursor-pointer  inline-block font-[700] border-opacity-[0.2] mx-2  ">EN</p>
-</div>
- 
-<div class="lg:hidden text-5xl cursor-pointer mr-8">
-    <p href="#">&#8801;</p>
-</div>
+            <li className="mx-2   ">About Hemrfied</li>
 
 
-</nav>
 
-        </>
-    );
+        </ul>
+
+        <div className="lg:flex items-center mr-3   hidden  2xl:text-2xl">
+            <p className="cursor-pointer inline-block  mx-2">SV </p>
+
+            <div className="inline-block border-r border-zinc-400   h-12 mx-2"></div>
+
+            <p className="cursor-pointer  inline-block font-[700] border-opacity-[0.2] mx-2  ">EN</p>
+        </div>
+
+        <div class="lg:hidden text-5xl cursor-pointer mr-8">
+            <p href="#">&#8801;</p>
+        </div>
+
+
+    </nav>
+
+</>
+);
 
 
 };
