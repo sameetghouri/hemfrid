@@ -1,0 +1,161 @@
+const Movingtip=()=>{
+    return (
+<>
+
+        <div className="h-[330px]  overflow-clip">
+<img src="https://images.ctfassets.net/37vwfxlcawdb/3LevsEqCuwhJBpizNqhkvj/813ba238477269b45ae4a3076f8a9872/Golv-tra-16-9.jpg?q=60&fm=jpg&w=2560"  className="h-[500px] w-full"/>
+</div>
+
+
+<div className="  h-fit   bg-[#f5f4f0]">
+        
+<div class="">
+    <h3 className="text-5xl font-medium pt-28">Moving & cleaning tips!</h3>
+    
+ {/* line content */}
+ <div className="w-full  flex  justify-center mt-8">
+ 
+    <p className=" border-black border-b w-20 text-center " ></p>
+ 
+ </div>
+
+
+    </div>
+
+ {/* Box contetnt */}
+
+ <div className="   mt-14  mx-24  h-fit   flex  overflow-hidden pb-24  ">
+{/* column one */}
+<div className="flex flex-col justify-between items-start mr-7">
+
+{/* first item */}
+
+<div  className="h-[90vh] bg-[#fff] w-fit "> {/* main box */}
+    {/* image box */}
+<div>
+<img src="https://images.ctfassets.net/37vwfxlcawdb/4qhLTEnSWdhB2h0MdsqoPn/8b2510f8ff20190ab4b8c9da7c4f57be/MicrosoftTeams-image__13_.png?q=50&fm=jpg&w=800" className="h-80" alt="Pic" />
+</div>
+
+{/* Content  box */}
+<div className="flex items-center justify-center flex-col  h-52">
+
+  <p className="text-xl font-bold">MOVING</p>
+
+
+    <p className=" border-black border-b w-20 text-center mt-4" ></p>
+    <p className="text-3xl font-medium mt-2">Trendsenser:Frida's best </p>
+    <p  className="text-3xl font-medium mt-2" >open hosue tips</p>
+</div>
+
+
+</div>
+
+<div  className="h-[90vh] bg-[#fff] w-fit relative top-14"> {/* main box */}
+    {/* image box */}
+<div>
+<img src="https://images.ctfassets.net/37vwfxlcawdb/6YcKFsdnCvokGoU3cbS2A8/83c7397a8fc81d02560bd72fd7877536/MicrosoftTeams-image__6_.png?q=50&fm=jpg&w=800" className="w-[700px] h-80" alt="Pic" />
+</div>
+
+{/* Content  box */}
+
+
+
+<div className="flex items-center justify-center flex-col  h-52">
+
+    <p className="text-xl font-bold">CLEANING</p>
+  
+  
+      <p className=" border-black border-b w-20 text-center mt-4" ></p>
+      <p className="text-3xl font-medium mt-2">Wash windows with</p>
+      <p  className="text-3xl font-medium mt-2" >homemade window</p>
+      <p  className="text-3xl font-medium mt-2" >cleaner</p>
+  </div>
+
+
+
+
+
+</div>
+
+
+
+</div>
+
+{/* column two */}
+
+<div className="flex flex-col justify-between items-start ">
+
+    {/* first item */}
+    
+    <div  className="h-[60vh] mx-16   w-fit "> {/* main box */}
+        {/* image box */}
+    <div className="">
+    <svg viewBox="0 0 280 325" class="cfbIs2Ub ahI90hC" style={{fill:"#d1dce7"}} ><path d="M140 0L280 85.0667V242.918L140 324.8L0 242.918L2.77158e-05 82.4067L140 0Z"></path></svg>
+    </div>
+    
+    {/* Content  box */}
+    <div className="flex items-center justify-center flex-col bg-transparent relative bottom-80 p-16 h-64">
+
+        <p className="text-xl font-bold">CLEANING</p>
+      
+      
+          <p className=" border-black border-b w-20 text-center mt-4 " ></p>
+          <p className="text-3xl  mt-4">Clena with  </p>
+          <p  className="text-3xl  mt-2" >bicarbonate</p>
+         
+      </div>
+    
+    </div>
+    
+    <div  className="h-[90vh] bg-[#fff] w-fit relative bottom-20"> {/* main box */}
+        {/* image box */}
+    <div>
+    <img src="https://images.ctfassets.net/37vwfxlcawdb/2U5sXRr86S3NTGvsbTgiHL/79da9aed5d9e41c482e315d209db4a7b/kok-1-1.jpg?q=50&fm=jpg&w=800" className="h-80 w-[700px]" alt="Pic" />
+    </div>
+    
+    {/* Content  box */}
+    <div className="flex items-center justify-center flex-col   h-52">
+
+        <p className="text-xl font-bold">CLEANING.MOVING</p>
+      
+      
+          <p className=" border-black border-b w-20 text-center mt-4" ></p>
+          <p className="text-3xl font-medium mt-2">Checklist for move out  </p>
+          <p  className="text-3xl font-medium mt-2" >cleaning</p>
+         
+      </div>
+    
+    
+    </div>
+    
+    
+    
+    </div>
+
+    </div>
+
+    
+{/* Button */}
+
+<div onClick className=" w-full flex items-center justify-center  pb-32  ">
+<div className="text-xl font-bold   rounded-md cursor-pointer border-black border  bg-transparent p-4 w-44">MORE TIPS</div>
+
+</div>
+
+
+
+
+
+
+
+    
+    </div>
+
+
+    </>
+    );
+
+
+}
+
+export default Movingtip;

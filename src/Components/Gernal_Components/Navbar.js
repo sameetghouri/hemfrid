@@ -13,22 +13,27 @@ return (
 
         <ul
             className="lg:flex cursor-pointer mr-16 border  lg:text-lg lg:ml-3 xl:text-lg 2xl:text-xl  hidden  md:text-sm pr-9 relative">
-            <p className="inline-block relative  py-3">
+            <p className="inline-block relative  py-3  transition-all duration-500 before:content-[''] before:absolute before:bottom-0 before:left-0 before:w-0 before:h-0.5 before:rounded-full before:opacity-0 before:transition-all before:duration-500 before:bg-gradient-to-r     before:from-pink-700 before:via-pink-700 before:to-pink-700 hover:before:w-full hover:before:opacity-100 ">
                 <li
-                    className="mx-4 w-fit xl:mx-3   2xl:mx-8 hover:bg-blue  transition-all duration-500 before:content-[''] before:absolute before:bottom-0 before:left-0 before:w-0 before:h-0.5 before:rounded-full before:opacity-0 before:transition-all before:duration-500 before:bg-gradient-to-r     before:from-pink-700 before:via-pink-700 before:to-pink-700 hover:before:w-full hover:before:opacity-100  ">
+                    className="mx-4 w-fit xl:mx-3   2xl:mx-8 ">
                     Cleaning</li>
             </p>
 <p className="inline-block relative  py-3">
-    <li className="mx-4 xl:mx-3   2xl:mx-8 transition-all duration-500 before:content-[''] before:absolute before:bottom-0 before:left-0 before:w-0 before:h-1.5 before:rounded-full before:opacity-0 before:transition-all before:duration-500 before:bg-gradient-to-r     before:from-white before:via-red-200 before:to-red-400 hover:before:w-full hover:before:opacity-100">Moving</li>
+    <li className="mx-4 xl:mx-3   2xl:mx-8 transition-all duration-500 before:content-[''] before:absolute before:bottom-0 before:left-0 before:w-0 before:h-0.5 before:rounded-full before:opacity-0 before:transition-all before:duration-500 before:bg-gradient-to-r     before:from-pink-700 before:via-pink-700 before:to-pink-700 hover:before:w-full hover:before:opacity-100 hover:text-base">Moving</li>
 </p>
+           <p className="inline-block relative  py-3  transition-all duration-500 before:content-[''] before:absolute before:bottom-0 before:left-0 before:w-0 before:h-0.5 before:rounded-full before:opacity-0 before:transition-all before:duration-500 before:bg-gradient-to-r     before:from-pink-700 before:via-pink-700 before:to-pink-700 hover:before:w-full hover:before:opacity-100">
+            <li className="mx-4 xl:mx-3 2xl:mx-8 inline-block">Gardening</li>
+           </p >
            
-            <li className="mx-4 xl:mx-3 2xl:mx-8 ">Gardening</li>
-            <li className="mx-4 xl:mx-3 2xl:mx-8  ">More Services</li>
-            <li className="mx-4 xl:mx-3  2xl:mx-8 ">For Bussiness</li>
-            <li className="mx-4 xl:mx-3 2xl:mx-8">Our locations</li>
 
+           <p className="inline-block relative  py-3  transition-all duration-500 before:content-[''] before:absolute before:bottom-0 before:left-0 before:w-0 before:h-0.5 before:rounded-full before:opacity-0 before:transition-all before:duration-500 before:bg-gradient-to-r     before:from-pink-700 before:via-pink-700 before:to-pink-700 hover:before:w-full hover:before:opacity-100">   <li className="mx-2 xl:mx-3 2xl:mx-8 inline-block  ">More Services</li></p>
+          
+           <p className="inline-block relative  py-3  transition-all duration-500 before:content-[''] before:absolute before:bottom-0 before:left-0 before:w-0 before:h-0.5 before:rounded-full before:opacity-0 before:transition-all before:duration-500 before:bg-gradient-to-r     before:from-pink-700 before:via-pink-700 before:to-pink-700 hover:before:w-full hover:before:opacity-100">   <li className="mx-2 xl:mx-3 2xl:mx-8 inline-block  ">More Bussiness</li></p>
+           <p className="inline-block relative  py-3  transition-all duration-500 before:content-[''] before:absolute before:bottom-0 before:left-0 before:w-0 before:h-0.5 before:rounded-full before:opacity-0 before:transition-all before:duration-500 before:bg-gradient-to-r     before:from-pink-700 before:via-pink-700 before:to-pink-700 hover:before:w-full hover:before:opacity-100">   <li className="mx-2 xl:mx-3 2xl:mx-8 inline-block  ">Our locations</li></p>
+          
+           <p className="inline-block relative  py-3  transition-all duration-500 before:content-[''] before:absolute before:bottom-0 before:left-0 before:w-0 before:h-0.5 before:rounded-full before:opacity-0 before:transition-all before:duration-500 before:bg-gradient-to-r     before:from-pink-700 before:via-pink-700 before:to-pink-700 hover:before:w-full hover:before:opacity-100">
             <li className="mx-2   ">About Hemrfied</li>
-
+           </p>
 
 
         </ul>
