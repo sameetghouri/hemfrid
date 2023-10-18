@@ -3,14 +3,16 @@ const  HelpWith=()=>{
 
 return(
 
-    <div className="bg-[#eae8e1] border-indigo-500   relative  ">
+    <div className="bg-[#eae8e1]    relative font-['Roboto'] ">
+<div className="hover:transform scale-90  text-5xl">
 
-       <div className="pt-36 text-5xl font-bold">What Would you like help with?</div>
-      <div className="w-full mt-8  flex justify-center items-center">
 
-        <p className=" border-black border-2 w-20 text-center" ></p>
-        
-      </div>
+       <div className="pt-36 font-bold">What Would you like help with?</div>
+       <div class="w-full flex justify-center mt-8 relative group ">
+    <p class="border-black hover:border-red-300 border-2 w-20 hover:w-[350PX] text-center transition-all duration-300 transform origin-center scale-100 "></p>
+</div>
+</div>
+    
       <div className="mt-8 text-lg leading-7  ">
         <p>Sometimes there are too many tasks and too few hours. That's why there is</p>
         <p>Hemfrid. We help you with everything from cleaning to easier handy work!</p>

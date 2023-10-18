@@ -1,0 +1,27 @@
+
+.rotations:hover::after {
+ 
+    animation: rotateBack 0.3s ease forwards; /* Smooth transition back */
+}
+.rotations:hover{
+
+    transition: transform 0.3s; 
+    animation: rotateY 2s linear infinite;
+}
+
+
+@keyframes rotateY {
+    0% {
+        transform: rotateY(0deg);
+    }
+    100% {
+        transform: rotateY(360deg); /* Rotate 360 degrees over the animation duration */
+    }
+}
+
+@keyframes rotateBack {
+    to {
+        transform: rotateY(0deg); /* Rotate back to 0 degrees */
+    }
+
+}

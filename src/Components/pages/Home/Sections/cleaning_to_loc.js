@@ -3,7 +3,7 @@ const Cleaningtoloc=()=>{
 
 return (
 <div>
-<div className="bg-[#fff]   relative  ">
+<div className="bg-[#fff]   relative  font-['Roboto']">
 
 <div className="pt-36 text-5xl font-bold">Cleaning in your area</div>
 <div className="w-full mt-8  flex justify-center items-center">

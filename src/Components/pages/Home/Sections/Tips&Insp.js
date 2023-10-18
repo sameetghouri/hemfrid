@@ -3,7 +3,7 @@ const Tipsinsp=()=>{
 
 
     return(
- <div className="  h-fit   bg-[#f5f4f0]">
+ <div className="  h-fit   bg-[#f5f4f0] font-['Roboto']">
 
 <div class="">
     <h3 className="text-5xl font-medium pt-28">Tips & inspiration?</h3>

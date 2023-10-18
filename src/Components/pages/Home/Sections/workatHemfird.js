@@ -4,7 +4,7 @@ return(
 
     <div>
 
-<div className="bg-[#d1dce7] border-indigo-500 text-[#003b5c]   relative  ">
+<div className="bg-[#d1dce7] border-indigo-500 text-[#003b5c]   relative font-['Roboto'] ">
 
 <div className="pt-24 text-5xl  ">Do you want to work at <br /> <span className="hover:text-black hover:animate-ping">Hemfrid?</span> </div>
 <div className="w-full mt-8  flex justify-center items-center">

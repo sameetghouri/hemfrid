@@ -2,7 +2,7 @@
 const TimeforSimple=()=>{
 
     return (
-<div className="h-screen bg-[#eae8e1] overflow-clip">
+<div className="h-screen bg-[#eae8e1] overflow-clip font-['Roboto']">
 
 <div className="flex  overflow-hidden">
 {/* first content */}
@@ -13,9 +13,9 @@ const TimeforSimple=()=>{
 
 
 <p class="  text-start mt-1 ">everyday life?</p>
-<div className="w-full  flex justify-start mt-8">
+<div className="w-full  flex justify-start mt-8 hover:w-40">
 
-    <p className=" border-black border-2 w-20 text-center " ></p>
+    <p className=" border-black border-2 w-20 hover:w-full text-center " ></p>
  
  </div>
 <div className="flex justify-start w-full">

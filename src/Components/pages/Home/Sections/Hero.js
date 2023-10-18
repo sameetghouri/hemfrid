@@ -9,7 +9,7 @@ const Hero=()=>{
 </div>
 
 
-<div className=" z-0 absolute top-44 ml-20 text-white text-5xl font-medium font-['Young Serif']  lg:ml-28  xl:ml-24  2xl:ml-36">
+<div className=" z-0 absolute top-44 ml-20 text-white text-6xl font-medium font-['Roboto']  lg:ml-28  xl:ml-24  2xl:ml-36">
 
     <p>More quality of</p>
     
