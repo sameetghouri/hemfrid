@@ -11,7 +11,7 @@ const Hero=()=>{
 
 <div className=" z-0 absolute top-44 ml-20 text-white text-6xl font-medium font-['Roboto']  lg:ml-28  xl:ml-24  2xl:ml-36">
 
-    <p>More <span className="text-yellow-500">Quality of</span></p>
+    <p>More <span className="text-yellow-500">quality of</span></p>
     
     <p class="  text-start mt-1 "><span className="text-yellow-500">life</span> this fall</p>
 <div className="flex justify-start w-full">
