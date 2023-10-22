@@ -8,7 +8,7 @@ return (
 <div className="pt-36 text-5xl font-bold">Cleaning in your area</div>
 <div className="w-full mt-8  flex justify-center items-center">
 
- <p className=" border-black border-2 w-20 text-center" ></p>
+ <p className=" border-black border-2 w-20 text-center hover:w-[400PX] hover:border-gray-500 text-center transition-all duration-300 transform origin-center scale-100" ></p>
  
 </div>
 

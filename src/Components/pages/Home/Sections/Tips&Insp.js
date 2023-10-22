@@ -11,7 +11,7 @@ const Tipsinsp=()=>{
  {/* line content */}
  <div className="w-full  flex justify-center mt-8">
  
-    <p className=" border-black border-b w-20 text-center " ></p>
+    <p className=" border-black border-b w-20 text-center hover:w-[250PX] hover:border-yellow-500 text-center transition-all duration-300 transform origin-center scale-100" ></p>
  
  </div>
 
@@ -131,18 +131,15 @@ const Tipsinsp=()=>{
 
     
 {/* Button */}
-
-<div onClick className=" w-full flex items-center justify-center  pb-32  ">
-<div className="text-xl font-bold   rounded-md cursor-pointer border-black border  bg-transparent p-4 w-44">MORE TIPS</div>
-
+<button>
+<div className=" w-full flex items-center justify-center  pb-32  ">
+<div className="text-xl font-bold   rounded-md cursor-pointer border-black border  bg-transparent p-4 w-44">
+<span className="absolute w-64 h-0 transition-all duration-[700ms] origin-center rotate-45 -translate-x-20 bg-orange-400 top-1/2 group-hover:h-64 group-hover:-translate-y-32 ease">g</span>
+<span className="relative text-orange-400 transition duration-[700ms] group-hover:text-white ease">    
+</span>
+MORE TIPS</div>
 </div>
-
-
-
-
-
-
-
+</button>
     
     </div>
     );

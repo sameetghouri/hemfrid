@@ -11,9 +11,9 @@ const Hero=()=>{
 
 <div className=" z-0 absolute top-44 ml-20 text-white text-6xl font-medium font-['Roboto']  lg:ml-28  xl:ml-24  2xl:ml-36">
 
-    <p>More quality of</p>
+    <p>More <span className="text-yellow-500">Quality of</span></p>
     
-    <p class="  text-start mt-1 ">life this fall</p>
+    <p class="  text-start mt-1 "><span className="text-yellow-500">life</span> this fall</p>
 <div className="flex justify-start w-full">
     <input className="bg-white focus:border-none focus:outline-none  w-full text-black text-center text-lg p-3 rounded-md mt-10 placeholder-black font-bold cursor-pointer" placeholder="POSTCODE" />
 </div>

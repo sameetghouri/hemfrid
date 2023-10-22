@@ -15,7 +15,7 @@ const TimeforSimple=()=>{
 <p class="  text-start mt-1 ">everyday life?</p>
 <div className="w-full  flex justify-start mt-8 hover:w-40">
 
-    <p className=" border-black border-2 w-20 hover:w-full text-center " ></p>
+    <p className=" border-black border-2 w-20" ></p>
  
  </div>
 <div className="flex justify-start w-full">
