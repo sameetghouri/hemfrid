@@ -14,8 +14,10 @@ const Navbar = () => {
                     className="lg:flex cursor-pointer mr-16   lg:text-lg lg:ml-3 xl:text-lg 2xl:text-xl  hidden  md:text-sm pr-9 relative">
                     <p
                         className="inline-block relative  py-3  transition-all duration-500 before:content-[''] before:absolute before:bottom-0 before:left-0 before:w-0 before:h-0.5 before:rounded-full before:opacity-0 before:transition-all before:duration-500 before:bg-gradient-to-r      before:from-pink-700 before:via-pink-700 before:to-pink-700 hover:before:w-full hover:before:opacity-100 hover:text-pink-700 ">
+                        <a href='/'>
                         <li className="mx-4 w-fit xl:mx-4   2xl:mx-4 ">
                             Cleaning</li>
+                            </a>
                     </p>
                     <p className="inline-block relative  py-3 2xl:mx-4">
                         <li
