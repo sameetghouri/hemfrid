@@ -3,7 +3,7 @@ const Navbar = () => {
     return (
         <>
 
-            <nav class="w-screen bg-[#FFF] h-[75px] mt-[.3px] z-10  flex   items-center px-5   justify-between fixed  ">
+            <nav class="w-screen bg-[#FFF] h-[75px] mt-[.3px] z-50  flex   items-center px-5   justify-between fixed  ">
                 <div className="cursor-pointer ">
                     <p className="text-2xl  lg:text-2xl xl:text-2xl   "><img
                         src="https://www.hemfrid.se/_next/static/media/logo-horizontal.225a413c.svg" className="h-10" alt=""
