@@ -29,7 +29,7 @@ const Footer = () => {
                     </h4>
                     <div className="flex gap-2">
                         <a
-                            href="mailto:intellsignals.entertainment@gmail.com"
+                            href="mailto:example@gmail.com"
                             className="hover:text-green-400 cursor-pointer flex transition duration-200 ease-in text-white "
                         >
                             <SiMinutemailer className="w-6 h-6 mr-2  text-green-400" />
