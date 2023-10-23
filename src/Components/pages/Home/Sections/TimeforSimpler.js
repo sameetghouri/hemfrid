@@ -1,13 +1,13 @@
 
 const TimeforSimple=()=>{
 
-    return (
-<div className="h-screen bg-[#eae8e1] overflow-clip font-['Roboto']">
+return (
+<div className="  bg-[#eae8e1] overflow-clip font-['Roboto']">
 
-<div className="flex  overflow-hidden">
+<div className="flex flex-col lg:flex-row lg:items-stretch items-center ">
 {/* first content */}
-    <div className="">
-    <div className=" my-32 ml-20 text-black text-5xl font-medium font-['Young Serif']    ">
+    
+<div className=" my-20 px-4 lg:px-20  text-black text-5xl font-medium font-['Young Serif']    ">
 
 <p>Time for a simpler</p>
 
@@ -26,32 +26,17 @@ const TimeforSimple=()=>{
 <p className="text-center text-white ">CHOOSE SERVICES</p>
 
 <p className="text-center text-4xl  self-end  absolute end-0  mr-4"><svg height="20" viewBox="0 0 9 15" width="20" class="csw9N_C5 fiwAtSA" style={{stroke:"#fff"}}   ><path d="m.958.995 6.51 6.51-6 6" fill="none" stroke-width="2"></path></svg></p>
-
-
-
 </div>
-   
+</div>       
 
-</div>
-        
-    </div>
 
 
 {/* second content */}
-
-
-
-<div className=" 2   ml-16 w-[47vw] absolute end-0 overflow-hidden">
+<div className=" lg:ml-auto w-[47vw]  overflow-hidden">
 <img src="https://images.ctfassets.net/37vwfxlcawdb/2xjwGOztqiIgJqeJJNjUO6/0f3f6a98bf16671ceb817a6545c33460/Kok-spis-kastrull-1-1.jpg?q=50&fm=jpg&w=1200" className=" w-[100vw] " alt="pic_image" />
-        
-    </div>
-
-
-
-
 </div>
 
-
+</div>
 </div>
 
     );
