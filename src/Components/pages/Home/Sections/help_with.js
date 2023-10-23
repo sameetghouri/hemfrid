@@ -42,7 +42,7 @@ return(
 <a href="/Home_clean">    
         <img  className=" inline-block  h-12" src="https://images.ctfassets.net/37vwfxlcawdb/1i6rvbHEd43Wz2cGJnavev/d719f7b2e4236a51c168ac0180ae8028/Hemfrid_Piktogram_Tra__dga__rdshja__lp_64x64px-01.svg" class="h-12 inline-block hover:shake" alt=""  />
         </a>
-        <p className="text-2xl inline-block text-2xl ml-8">Gardening help</p>
+        <p className="text-2xl inline-block  ml-8">Gardening help</p>
         <a href="/Home_clean">
         <p className="text-center text-4xl   absolute end-0 bottom-3 cursor-pointer"><svg height="24" viewBox="0 0 9 15" width="24" class="csw9N_C5 fiwAtSA" style={{stroke:"#1e1e1e"}}><path d="m.958.995 6.51 6.51-6 6" fill="none" stroke-width="2"></path></svg></p>
     </a>

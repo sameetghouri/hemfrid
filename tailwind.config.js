@@ -6,7 +6,21 @@ module.exports = {
   theme: {
    
 
-    extend: {},
+    extend: {
+      colors: {
+        'gr': '#1d1d1d',
+        'gr1':'#8c8c8c',
+        'gr2':'#141617',
+        'gr3':'#757575',
+        'sk': '#25abf4',
+        'sk1':'#564DCA',
+        'gre':'#18D48C',
+
+        primary: "#00040f",
+        secondary: "#00f6ff",
+        
+      },
+    },
   },
   plugins: [],
 }
