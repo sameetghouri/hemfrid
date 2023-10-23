@@ -11,7 +11,7 @@ const Footer = () => {
     const [loading, setLoading] = useState(false);
 
     return (
-        <footer className="bg-black pt-6 w-full flex flex-col items-center">
+        <footer className="bg-gray-900 pt-6 w-full flex flex-col items-center">
 
             <div
                 id="contactUs"
