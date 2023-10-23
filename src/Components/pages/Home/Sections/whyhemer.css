@@ -9,7 +9,7 @@
     animation: rotateY 2s linear infinite;
 }
 
-.shake {
+.hover\:shake:hover {
   animation: shake 1s ease-in-out; /* Adjust the animation duration as needed */
   animation-iteration-count: 1; /* Play the animation once */
 }

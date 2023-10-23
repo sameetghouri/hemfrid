@@ -1,9 +1,3 @@
-
-.shake {
-  animation: shake 1s ease-in-out; /* Adjust the animation duration as needed */
-  animation-iteration-count: 1; /* Play the animation once */
-}
-
 @keyframes shake {
     0% { transform: translateX(0); }
     10% { transform: translateX(-3px); }
@@ -17,3 +11,9 @@
     90% { transform: translateX(0px); }
     100% { transform: translateX(0); }
   }
+  
+  .hover\:shake:hover {
+    animation: shake 1s ease-in-out; /* Adjust the animation duration as needed */
+    animation-iteration-count: 1; /* Play the animation once */
+  }
+  
