@@ -1,3 +1,4 @@
+import "./Footer.css";
 
 import { Link } from "react-router-dom";
 import { SiMinutemailer } from "react-icons/si";
@@ -32,7 +33,7 @@ const Footer = () => {
                             className="hover:text-green-400 cursor-pointer flex transition duration-200 ease-in text-white "
                         >
                             <SiMinutemailer className="w-6 h-6 mr-2  text-green-400" />
-                            intellsignals.entertainment@gmail.com
+                            info@hemfrid.se
                         </a>
                     </div>
                 </div>
@@ -42,7 +43,7 @@ const Footer = () => {
                     </h2>
                     <div className="flex flex-col gap-y-5">
                         <div className="flex relative items-center ">
-                            <BiUser className="absolute left-1 w-9 h-9 p-1 text-gray-500 hover:animate-bounce" />
+                            <BiUser className="absolute left-1 w-9 h-9 p-1 text-gray-500 hover:shake" />
                             <input
                                 className="pl-12 rounded bg-gray-200 shadow-lg w-full  p-2 placeholder:text-gr1 "
                                 type="text"
@@ -52,7 +53,7 @@ const Footer = () => {
                             />
                         </div>
                         <div className="flex relative items-center ">
-                            <FiMail className=" absolute left-1 w-7 h-7 mr-2 text-gray-500 hover:animate-bounce" />
+                            <FiMail className=" absolute left-1 w-7 h-7 mr-2 text-gray-500 hover:shake" />
                             <input
                                 className="pl-12 w-full rounded bg-gray-200 shadow-lg   p-2 placeholder:text-gr1 "
                                 type="email"
@@ -62,7 +63,7 @@ const Footer = () => {
                             />
                         </div>
                         <div className="flex relative items-center">
-                            <MdSubject className="absolute left-1 w-7 h-7  mr-2 text-gray-500 hover:animate-bounce" />
+                            <MdSubject className="absolute left-1 w-7 h-7  mr-2 text-gray-500 hover:shake" />
                             <input
                                 className="pl-12 w-full rounded bg-gray-200 shadow-lg  p-2 placeholder:text-gr1 "
                                 type="text"
@@ -72,7 +73,7 @@ const Footer = () => {
                             />
                         </div>
                         <div className="flex relative items-center">
-                            <AiOutlineMessage className="absolute left-1 top-2 w-7 h-7 mr-2 text-gray-500 hover:animate-bounce" />
+                            <AiOutlineMessage className="absolute left-1 top-2 w-7 h-7 mr-2 text-gray-500 hover:shake" />
                             <textarea
                                 className="pl-12 w-full p-2 rounded bg-gray-200  shadow-lg   placeholder:text-gr1 "
                                 placeholder="Message"
@@ -352,7 +353,7 @@ const Footer = () => {
           <div
             className="text-lg font-semibold rounded-lg py-3 px-4 ml-auto lg:mr-24 bg-sk hover:bg-sk1 transition duration-200"           
           >
-            <button type="submit">Subscribe Now</button>
+            <button type="submit">Book Now</button>
           </div>
         </div>
 
