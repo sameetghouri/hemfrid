@@ -2,13 +2,13 @@ const ZipeCode=()=>{
 
 return (
 
-    <div className=" bg-[#eae8e1] h-[120vh]">
+    <div className=" bg-[#eae8e1] ">
 
 
-<div class="flex flex-row items-center justify-between relative">
+<div class="flex flex-col-reverse lg:flex-row items-center justify-between relative">
 
 
-<div className="  absolute top-44 z-20 ml-20 text-black text-5xl font-medium font-['Young Serif']  lg:ml-28  xl:ml-24  2xl:ml-36">
+<div className="py-4 ml-20 text-black text-5xl font-medium font-['Young Serif']  lg:ml-28  xl:ml-24  2xl:ml-36">
 
     <p>More quality of</p>
     
@@ -40,8 +40,8 @@ return (
 
 </div>
 
-<div class="absolute end-0  top-0">
-    <img src="https://images.ctfassets.net/37vwfxlcawdb/291pWZPpWaYfoUN7hYLfxQ/cf9a96b1956bad85f2ff41bcab4ba558/Kadir-1-1.jpg?q=50&fm=jpg&w=1200" className="h-[720px] w-[600px]" />
+<div class="w-1/2">
+    <img src="https://images.ctfassets.net/37vwfxlcawdb/291pWZPpWaYfoUN7hYLfxQ/cf9a96b1956bad85f2ff41bcab4ba558/Kadir-1-1.jpg?q=50&fm=jpg&w=1200"  />
 </div>
 
 </div>

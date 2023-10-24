@@ -67,7 +67,7 @@ const Navbar = () => {
                             <ul className='grid grid-cols-2 gap-8'>
                                 <Link to='/Home_clean' className='col-span-1 text-lg border-b-2 border-gr1 p-2'><li>Home Cleaning</li></Link>
                                 <Link className='col-span-1 text-lg border-b-2 border-gr1 p-2'><li>Window Cleaning</li></Link>
-                                <Link className='col-span-1 text-lg border-b-2 border-gr1 p-2'><li>Deep Cleaning</li></Link>
+                                <Link to='/Deep_Clean' className='col-span-1 text-lg border-b-2 border-gr1 p-2'><li>Deep Cleaning</li></Link>
                                 <Link className='col-span-1 text-lg border-b-2 border-gr1 p-2'><li>Move Out Cleaning</li></Link>
 
                             </ul>

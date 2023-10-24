@@ -8,16 +8,10 @@ import DHome from './Components/pages/DeepCleaning/D_Home';
 import M_Home from './Components/pages/Moveout_Cleaning/M_Home';
 
 
-import {
-
-  
-  Route,
-
-  BrowserRouter,
-  Router,
-  Routes,
-} from "react-router-dom";
+import {Route,BrowserRouter,Routes,} from "react-router-dom";
 import Navbar from './Components/Gernal_Components/Navbar';
+import { ChakraProvider } from '@chakra-ui/react'
+
 
 
 
@@ -25,9 +19,9 @@ import Navbar from './Components/Gernal_Components/Navbar';
 function App() {
   
   return (
-
+<ChakraProvider>
     <BrowserRouter>
-    <div className="App ">
+    <div className="App text-center text-black ">
   
 {/* 
 <Navbar /> */}
@@ -45,7 +39,7 @@ function App() {
 
 </div>
 </BrowserRouter>
-
+</ChakraProvider>
  
   );
 }

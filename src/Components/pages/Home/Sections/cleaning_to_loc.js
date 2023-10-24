@@ -1,5 +1,4 @@
 
-import "./whyhemer.css";
 
 const Cleaningtoloc=()=>{
 

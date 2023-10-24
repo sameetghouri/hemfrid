@@ -1,4 +1,5 @@
 import Navbar from "../../Gernal_Components/Navbar";
+import Footer from "../../Gernal_Components/Footer";
 import Tipsinsp from "../Home/Sections/Tips&Insp";
 import StepS from "./sections/3setps";
 import Emma from "./sections/Emma";
@@ -13,7 +14,7 @@ import ZipeCode from "./sections/zipcode";
 const Home_Cleaning=()=>{
 
     return (<div>
-<Navbar></Navbar>
+<Navbar/>
 <Hero />
 <Includesection />
 
@@ -23,6 +24,7 @@ const Home_Cleaning=()=>{
 <Emma />
 <TNews />
 <ZipeCode />
+<Footer/>
 
 
     </div>);

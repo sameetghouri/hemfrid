@@ -129,8 +129,8 @@ const Tipsinsp = () => {
 
             </div>
 
-            <button className="px-5 py-3 text-lg font-semibold rounded-lg overflow-hidden relative group cursor-pointer bg-sk  hover:scale-105 duration-[700ms]">
-                <span className="absolute w-64 h-0 transition-all duration-[700ms] origin-center rotate-45 -translate-x-20 bg-green-400 top-1/2 group-hover:h-64 group-hover:-translate-y-32 ease"></span>
+            <button className="px-5 py-3 text-lg font-semibold rounded-lg overflow-hidden relative group cursor-pointer bg-[#044946]  hover:scale-105 duration-[700ms]">
+                <span className="absolute w-64 h-0 transition-all duration-[700ms] origin-center rotate-45 -translate-x-20 bg-[#1fa299] top-1/2 group-hover:h-64 group-hover:-translate-y-32 ease"></span>
                 <span className="relative text-white transition duration-[700ms] group-hover:text-white ease">
                     MORE TIPS
                 </span>

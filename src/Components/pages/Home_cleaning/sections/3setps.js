@@ -22,7 +22,7 @@ const StepS=()=>{
 
 
     <div className=" ml-1 flex  flex-col items-center justify-center">
-        <div className="bg-[hsla(0,0%,100%,.4)]  self-center   h-36 w-36 flex items-center justify-center rounded-full">
+        <div className="bg-[hsla(0,0%,100%,.4)]  self-center   h-36 w-36 flex items-center justify-center rounded-full rotations">
 
       
             <img src="https://images.ctfassets.net/37vwfxlcawdb/30iDNAs0Qt1Prd4vowKOk6/835530c4bd02471716e1ec74915c06b1/Piktogram__S__lj___kundtj__nst__64x64px.svg"  className="h-12"  alt="img_icon"/>   
@@ -51,7 +51,7 @@ const StepS=()=>{
 
 
     <div className=" ml-1 flex  flex-col items-center justify-center">
-        <div className="bg-[hsla(0,0%,100%,.4)]  self-center   h-36 w-36 flex items-center justify-center rounded-full">
+        <div className="bg-[hsla(0,0%,100%,.4)]  self-center   h-36 w-36 flex items-center justify-center rounded-full rotations">
 
       
             <img src="https://images.ctfassets.net/37vwfxlcawdb/40uG0fMTP0zEqxAaNXwlSH/93887b204bd4f0da127e8ddabd5cc082/Hemfrid_Piktogram_Storsta__dning_64x64px-01.svg"  className="h-12"  alt="img_icon"/>   
@@ -82,7 +82,7 @@ const StepS=()=>{
 
 
     <div className=" ml-1 flex  flex-col items-center justify-center">
-        <div className="bg-[hsla(0,0%,100%,.4)]  self-center   h-36 w-36 flex items-center justify-center rounded-full">
+        <div className="bg-[hsla(0,0%,100%,.4)]  self-center   h-36 w-36 flex items-center justify-center rounded-full rotations">
 
       
             <img src="https://images.ctfassets.net/37vwfxlcawdb/NNOembCSzySTh6zEwVfCi/1f035c76c864d50936a3d2e36ee6a3f8/Hemfrid_Piktogram_Sta__dat_och_klart_64x64px-01.svg" className="h-12"/>   

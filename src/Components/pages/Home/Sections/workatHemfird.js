@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 const WorkAtHemfird=()=>{
 
 return(
@@ -19,9 +20,15 @@ return(
 
 </div>
 
-<div className=" text-[#003b5c] font-bold mt-14 flex items-center justify-center">
+<button className="my-14 px-5 py-3 text-lg font-semibold rounded-lg overflow-hidden relative group cursor-pointer bg-[#58274f]  hover:scale-105 duration-[700ms]">
+                <span className="absolute w-64 h-0 transition-all duration-[700ms] origin-center rotate-45 -translate-x-16 bg-[#9e478e] top-1/2 group-hover:h-64 group-hover:-translate-y-32 ease"></span>
+                <span className="relative text-white transition duration-[700ms] group-hover:text-white ease">
+                TO THE CARRER PAGE
+                </span>
+            </button>
+{/* <div className=" text-[#003b5c] font-bold mt-14 flex items-center justify-center">
     <p className="bg-white p-4 w-64 rounded-lg mb-24">TO THE CARRER PAGE</p>
-    </div>
+    </div> */}
 
 </div>
     </div>
