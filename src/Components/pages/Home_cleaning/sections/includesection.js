@@ -68,21 +68,21 @@ const Includesection = () => {
 
       </div>
 
-      <div className='p-4 flex justify-center'>
-        <Accordion defaultIndex={[0]} allowMultiple className='grid lg:grid-cols-2 w-full max-w-6xl gap-8' >
+      <div className='px-2 py-8 flex justify-center text-gray-700'>
+        <Accordion  allowMultiple className='grid lg:grid-cols-2 w-full max-w-6xl gap-8' >
           {cleanmethods.map((item, index) => (
             <AccordionItem className='col-span-1 ' key={index}>
             <h2>
               <AccordionButton>
-                <Box as="span" flex='1' textAlign='left' className='text-4xl'>
+                <Box as="span" flex='1' textAlign='left' className='text-4xl text-gray-800'>
                   {item.heading}
                 </Box>
                 <AccordionIcon className="w-12"/>
               </AccordionButton>
             </h2>
             <AccordionPanel pb={4}>
-              <h3 className='text-start text-2xl'>{item.title}</h3>
-              <ul className='list-disc text-start text-xl pl-5'>
+              <h3 className='text-start text-xl pb-1'>{item.title}</h3>
+              <ul className='list-disc text-start text-xl pl-5 space-y-3'>
               {item?.description?.map((item1, index) => (
                   <li key={index}>{item1}</li>
               ))}
