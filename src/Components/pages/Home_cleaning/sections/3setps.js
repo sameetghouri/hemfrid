@@ -22,7 +22,7 @@ const StepS=()=>{
 
 
     <div className=" ml-1 flex  flex-col items-center justify-center">
-        <div className="bg-[hsla(0,0%,100%,.4)] hover:bg-white self-center   h-36 w-36 flex items-center justify-center rounded-full rotations">
+        <div className="bg-[hsla(0,0%,100%,.4)]  self-center   h-36 w-36 flex items-center justify-center rounded-full hover:bg-white rotations">
             <img src="https://images.ctfassets.net/37vwfxlcawdb/30iDNAs0Qt1Prd4vowKOk6/835530c4bd02471716e1ec74915c06b1/Piktogram__S__lj___kundtj__nst__64x64px.svg"  className="h-12"  alt="img_icon"/>   
         </div>
       

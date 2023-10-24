@@ -20,7 +20,7 @@ const Hero =()=>{
 </div>
 <div className="flex justify-center items-center  w-full bg-opacity-80 hover:shadow-lg hover:shadow-black bg-[#1e1e1e] text-lg font-bold mt-4 p-5 rounded-md">
 
-   <p className="text-center text-['#fff'] ">MOVE ON</p>
+   <p className="text-center text-['#fff'] ">CONTINUE</p>
    
 
 

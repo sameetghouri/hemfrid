@@ -53,10 +53,10 @@ const Includesection = () => {
   ]
   return (
 
-    <div className="min-h-screen bg-[#eae8e1] ">
+    <div className="py-14 bg-[#eae8e1] ">
       <div className="   relative  ">
 
-        <div className="pt-36 text-6xl font-bold">What is included in our home cleaning?</div>
+        <div className="pt-12 text-5xl font-bold">What is included in our home cleaning?</div>
         <div className="w-full mt-8  flex justify-center items-center">
           <p className=" border-black border-2 w-20 text-center" ></p>
         </div>
@@ -74,7 +74,7 @@ const Includesection = () => {
             <AccordionItem className='col-span-1 ' key={index}>
             <h2>
               <AccordionButton>
-                <Box as="span" flex='1' textAlign='left' className='text-4xl text-gray-800'>
+                <Box as="span" flex='1' textAlign='left' className='text-3xl text-gray-800'>
                   {item.heading}
                 </Box>
                 <AccordionIcon className="w-12"/>
@@ -83,8 +83,8 @@ const Includesection = () => {
             <AccordionPanel pb={4}>
               <h3 className='text-start text-xl pb-1'>{item.title}</h3>
               <ul className='list-disc text-start text-xl pl-5 space-y-3'>
-              {item?.description?.map((item1, index) => (
-                  <li key={index}>{item1}</li>
+              {item?.description?.map((item, index) => (
+                  <li key={index}>{item}</li>
               ))}
               </ul>
             </AccordionPanel>

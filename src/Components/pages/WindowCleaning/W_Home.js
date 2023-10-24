@@ -1,5 +1,4 @@
-import Navbar from "../../Gernal_Components/Navbar";
-import Footer from "../../Gernal_Components/Footer";
+
 import Includesection from "../Home_cleaning/sections/includesection";
 import Anders from "./section/Anderstaby";
 import Hero from "./section/Hero";
@@ -12,7 +11,6 @@ const W_Home=()=>{
 
 return (
    <div>
-<Navbar />
 <Hero/>
 <Includesection />
 <Work />
@@ -21,7 +19,6 @@ return (
 <Cleaningtips />
 <Letus />
 
-<Footer />
    </div>
 );
 

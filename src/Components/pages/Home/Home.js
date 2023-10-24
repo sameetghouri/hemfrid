@@ -1,5 +1,4 @@
-import Navbar from "../../Gernal_Components/Navbar";
-import Footer from "../../Gernal_Components/Footer";
+
 import Hero from "../Home/Sections/Hero";
 import TimeforSimple from "./Sections/TimeforSimpler";
 import Tipsinsp from "./Sections/Tips&Insp";
@@ -17,8 +16,6 @@ return(
     <>
     <div >
 
-    
-    <Navbar />
     <Hero />
     <HelpWith />
     <WhyHermified />
@@ -28,7 +25,6 @@ return(
     <WorkAtHemfird />
     <Cleaningtoloc />
     <TimeforSimple />
-    <Footer />
     </div>
     </>
 );

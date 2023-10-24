@@ -3,22 +3,22 @@ const Dhero=()=>{
  return (
     <div>
     <div className="relative top-30">
-<img src="https://images.ctfassets.net/37vwfxlcawdb/5o07S3NoPr2fdSPLpR0edY/c2cd40057ee5768a17c95212e714d9df/F_nsterputs.jpg?q=50&fm=avif&w=1200"className=" relative z-0 w-full " alt="" srcset="" />
+<img src="https://images.ctfassets.net/37vwfxlcawdb/4l8RDAxaEze1utGrkmIWcl/09f98792b2cbbd7f60a59b114ebdfe28/Sta_d-.jpg?q=50&fm=avif&w=1920"className=" relative z-0 w-full " alt="" srcset="" />
 </div>
 
 
 <div className=" z-0  w-[35%] absolute top-48 ml-20 text-white text-5xl font-medium font-['Young Serif']  lg:ml-28  xl:ml-24  2xl:ml-36">
 
-<p className="text-start">Time for Window</p>
+<p className="text-start">Time for a major</p>
 
 
-<p class="  text-start mt-1 ">cleaning</p>
+<p class="  text-start mt-1 ">cleaning job?</p>
 <div className="flex justify-start w-full">
 <input className="bg-white focus:border-none focus:outline-none  w-full text-black text-center text-lg p-3 rounded-md mt-10 placeholder-black font-bold cursor-pointer" placeholder="ZIPCODE" />
 </div>
-<div className="flex justify-center items-center  w-full bg-opacity-[0.6] bg-[#1e1e1e] text-lg font-bold mt-4 p-5 rounded-md">
+<div className="flex justify-center items-center  w-full bg-opacity-80 hover:shadow-lg hover:shadow-black bg-[#1e1e1e] text-lg font-bold mt-4 p-5 rounded-md">
 
-<p className="text-center text-['#fff'] ">MOVE ON</p>
+<p className="text-center text-['#fff'] ">CONTINUE</p>
 
 
 

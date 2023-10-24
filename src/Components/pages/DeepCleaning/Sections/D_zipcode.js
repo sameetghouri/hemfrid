@@ -1,7 +1,6 @@
-const ZipeCode = () => {
+const Zipcode=()=>{
 
-    return (
-
+    return ( 
         <div className=" bg-[#eae8e1] ">
             <div class="flex flex-col-reverse lg:flex-row items-center justify-between relative">
                 <div className="py-4 ml-20 text-black text-5xl font-medium font-['Young Serif']  lg:ml-28  xl:ml-24  2xl:ml-36">
@@ -31,7 +30,8 @@ const ZipeCode = () => {
             </div>
         </div>
     );
+ 
 
 }
 
-export default ZipeCode;
+export default Zipcode;
