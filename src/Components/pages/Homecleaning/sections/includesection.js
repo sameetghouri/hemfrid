@@ -1,3 +1,4 @@
+import { TbInfoSquareFilled } from 'react-icons/tb'
 import {
   Accordion,
   AccordionItem,
@@ -75,7 +76,10 @@ const Includesection = () => {
             <h2>
               <AccordionButton>
                 <Box as="span" flex='1' textAlign='left' className='text-3xl text-gray-800'>
-                  {item.heading}
+                <div className='flex '>
+                      <TbInfoSquareFilled className='w-10  pr-2' />
+                      <h4>{item.heading}</h4>
+                    </div>
                 </Box>
                 <AccordionIcon className="w-12"/>
               </AccordionButton>
