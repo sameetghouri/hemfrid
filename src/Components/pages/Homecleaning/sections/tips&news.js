@@ -102,7 +102,7 @@ const TNews = () => {
                     </div>
 
 
-                    <div className="group relative overflow-hidden h-[65vh] bg-[#fff] w-fit top-4 transition-all duration-800 ease-in-out hover:h-[80vh]">
+<div className="group relative overflow-hidden h-[65vh] bg-[#fff] w-fit top-4 transition-all duration-800 ease-in-out hover:h-[80vh]">
   <div className="relative">
     <img
       src="https://images.ctfassets.net/37vwfxlcawdb/3pdyQZ0ZaS1ZUT70f70fvC/64ed9ea5b7ce17d1665adaa157273971/Stadprodukter-produktion-fabrik.jpg?q=50&fm=jpg&w=800"

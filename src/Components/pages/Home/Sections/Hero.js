@@ -1,5 +1,36 @@
 
+import React, { useEffect, useState } from 'react';
+
 const Hero = () => {
+  const [text, setText] = useState('');
+  const phrases = [' Home', ' Deep', ' Window', ' Move out'];
+  let currentIndex = 0;
+
+  const colorMapping = {
+    ' Home': 'white',
+    ' Deep': 'indigo',
+    ' Window': 'gray',
+    ' Move out': 'pink',
+  };
+
+  useEffect(() => {
+    const typeText = () => {
+      if (currentIndex < phrases.length) {
+        setText(phrases[currentIndex]);
+        currentIndex++;
+      } else {
+        currentIndex = 0;
+        setText(phrases[currentIndex]);
+        currentIndex++;
+      }
+    };
+
+    const interval = setInterval(typeText, 3000);
+
+    return () => clearInterval(interval);
+  }, []);
+
+  const textColor = colorMapping[text] || 'black'; 
 
     return (
         <>
@@ -10,13 +41,21 @@ const Hero = () => {
 
             <div className=" z-0 absolute top-44 ml-20 text-white text-6xl font-medium font-['Roboto']  lg:ml-28  xl:ml-24  2xl:ml-36">
 
-                <p>More <span className="text-yellow-500">quality of</span></p>
+            <p className="text-left">
+  More <span className="text-yellow-500">quality of</span>
+</p>
+<p className="text-left mt-1">
+  <span className="text-yellow-500">life</span> this fall
+</p>
+<span className='text-left mr-40 font-bold' style={{ color: colorMapping[text] || 'black' }}>{text}</span>
+<div className='text-left'>
+  <span className='text-green-600'>Cleaning</span>
+</div>
 
-                <p class="  text-start mt-1 "><span className="text-yellow-500">life</span> this fall</p>
                 <div className="flex justify-start w-full">
-                    <input className="bg-white focus:border-none focus:outline-none  w-full text-black text-center text-lg p-3 rounded-md mt-10 placeholder-black font-bold cursor-pointer" placeholder="POSTCODE" />
+                    <input className="bg-white focus:border-none focus:outline-none w-full text-black text-center text-lg p-3 rounded-md mt-10 placeholder-black font-bold cursor-pointer bg-opacity-80 hover:shadow-lg hover:shadow-black hover:bg-white transform hover:scale-90 transition-transform delay-200 hover:placeholder-gray-500" placeholder="ENTER ZIPCODE" />
                 </div>
-                <div className="flex justify-center items-center  w-full bg-opacity-80 hover:shadow-lg hover:shadow-black bg-[#181818] text-lg font-bold mt-4 p-5 rounded-md">
+                <div className="flex justify-center items-center  w-full bg-opacity-80 hover:shadow-lg hover:shadow-black bg-[#1e1e1e] text-lg font-bold mt-4 p-5 rounded-md hover:text-green-500 transform hover:scale-90 transition-transform delay-200">
 
                     <p className="text-center text-['#fff'] ">CHOOSE SERVICES</p>
 
