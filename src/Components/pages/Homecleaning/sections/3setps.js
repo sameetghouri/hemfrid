@@ -4,12 +4,12 @@ const StepS=()=>{
     return (<div>
 
 <div class="h-fit bg-[#e2c6bb] ">
-   <h3 className="text-5xl font-medium pt-28">3 Steps to a simpler everyday life</h3>
+   <h3 className="text-5xl font-medium pt-28"><span className="animate-pulse duration-200 text-gray-400"><span className="font-bold text-white-800">3</span> Steps</span><span> to a simpler <span className="animate-bounce text-red-700">Everyday life</span></span></h3>
    
 {/* line content */}
 <div className="w-full  flex justify-center mt-8">
 
-   <p className=" border-black border-2 w-20 text-center " ></p>
+   <p className=" border-black border-2 w-20 text-center hover:w-[600PX] text-center transition-all duration-300 transform origin-center scale-100 delay-200 hover:border-gray-100" ></p>
 
 </div>
 

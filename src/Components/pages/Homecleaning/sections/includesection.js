@@ -1,3 +1,4 @@
+import './includesection.css'
 import {
   Accordion,
   AccordionItem,
@@ -56,9 +57,9 @@ const Includesection = () => {
     <div className="py-14 bg-[#eae8e1] ">
       <div className="   relative  ">
 
-        <div className="pt-12 text-5xl font-bold">What is included in our home cleaning?</div>
+        <div className="pt-12 text-5xl font-bold">What is included in our <span className="text-yellow-300">Home</span> <span className='text-orange-600'>Cleaning</span>?</div>
         <div className="w-full mt-8  flex justify-center items-center">
-          <p className=" border-black border-2 w-20 text-center" ></p>
+          <p className=" border-black border-2 w-20 text-center hover:w-[550PX] text-center transition-all duration-300 transform origin-center scale-100 delay-200 hover:border-gray-400" ></p>
         </div>
         <div className="mt-8 text-lg leading-7  ">
           <p>It’s perfectly fine to need help sometimes, like with cleaning, for example. As one of our</p>
@@ -68,23 +69,23 @@ const Includesection = () => {
 
       </div>
 
-      <div className='px-2 py-8 flex justify-center text-gray-700'>
-        <Accordion  allowMultiple className='grid lg:grid-cols-2 w-full max-w-6xl gap-8' >
-          {cleanmethods.map((item, index) => (
-            <AccordionItem className='col-span-1 ' key={index}>
-            <h2>
-              <AccordionButton>
-                <Box as="span" flex='1' textAlign='left' className='text-3xl text-gray-800'>
-                  {item.heading}
-                </Box>
-                <AccordionIcon className="w-12"/>
-              </AccordionButton>
-            </h2>
+      <div className='px-2 py-8 flex justify-center'>
+    <Accordion  allowMultiple className='grid lg:grid-cols-2 w-full max-w-6xl gap-8' >
+    {cleanmethods.map((item, index) => (
+    <AccordionItem className='col-span-1 ' key={index}>
+  <h2 className='font-xl font-semibold'>
+  <AccordionButton className='group'>
+  <Box as="span" flex='1' textAlign='left' className='text-3xl text-gray-500 hover:text-white'>
+    {item.heading}
+  </Box>
+  <AccordionIcon className="w-1200" />
+</AccordionButton>
+  </h2>
             <AccordionPanel pb={4}>
-              <h3 className='text-start text-xl pb-1'>{item.title}</h3>
-              <ul className='list-disc text-start text-xl pl-5 space-y-3'>
+              <h3 className='text-start text-lg pb-1 font-semibold'>{item.title}</h3>
+              <ul className='list-disc text-start text-sl pl-5 space-y-3 text-gray-700'>
               {item?.description?.map((item, index) => (
-                  <li key={index}>{item}</li>
+                <li key={index}>{item}</li>
               ))}
               </ul>
             </AccordionPanel>

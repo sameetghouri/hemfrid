@@ -11,7 +11,7 @@ const Premium=()=>{
 
     
     
-    <p class=" text-start   ">Hemfrid Premium</p>
+    <p class=" text-start "><span className="text-green-800 font-bold animate-pulse delay-800">Hem<span className="text-orange-300">frid</span></span> <span className="font-bold">Premium</span></p>
     <div className="w-full  flex justify-start mt-8">
     
         <p className=" border-black border-2 w-20 text-center " ></p>
