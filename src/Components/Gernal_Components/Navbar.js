@@ -4,7 +4,15 @@ import CleaningSub from './subnavbar/CleaningSub';
 import MovingSub from './subnavbar/MovingSub';
 const Navbar = () => {
     const [isHover, setisHover] = useState('');
-
+    const names = [
+        "Cleaning",
+        "Moving",
+        'Gardening',
+        'More Services',
+        'More Bussiness',
+        'Our locations',
+        'About Hemrfied'
+    ]
     return (
         <>
 
@@ -14,6 +22,18 @@ const Navbar = () => {
                         src="https://www.hemfrid.se/_next/static/media/logo-horizontal.225a413c.svg" className="h-10" alt=""
                         srcset="" /></p>
                 </Link>
+                {/* <ul className="hidden lg:flex  cursor-pointer mr-16  lg:text-lg lg:ml-3 xl:text-lg 2xl:text-xl    md:text-sm pr-9 relative">
+                    {names.map((item, i) => (
+                        <li
+                            onMouseEnter={() => setisHover(item)}
+                            onMouseLeave={() => setisHover("")}
+                            className=" flex relative  py-3  ">
+                            <p className="mx-4 py-2 w-fit xl:mx-4 transition-all duration-500 before:content-[''] before:absolute before:bottom-0 before:left-0 before:w-0 before:h-0.5 before:rounded-full before:opacity-0 before:transition-all before:duration-500 before:bg-gradient-to-r      before:from-pink-700 before:via-pink-700 before:to-pink-700 hover:before:w-full hover:before:opacity-100 hover:text-pink-700  ">
+                                {item}</p>
+                            <BiSolidDownArrow className="w-5 h-5 " />
+                        </li>
+                    ))}
+                </ul> */}
                 <ul
                     className="hidden lg:flex cursor-pointer mr-16   lg:text-lg lg:ml-3 xl:text-lg 2xl:text-xl    md:text-sm pr-9 relative">
                     <p
