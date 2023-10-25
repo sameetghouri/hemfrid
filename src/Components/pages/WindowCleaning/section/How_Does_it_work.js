@@ -27,7 +27,7 @@ const Work=()=>{
  
  
      <div className=" ml-1 flex  flex-col items-center justify-center">
-         <div className="bg-[hsla(0,0%,100%,.4)]  self-center   h-36 w-36 flex items-center justify-center rounded-full">
+         <div className="bg-[hsla(0,0%,100%,.4)]  self-center   h-36 w-36 flex items-center justify-center rounded-full  hover:bg-white rotations">
  
        
              <img src="https://images.ctfassets.net/37vwfxlcawdb/lsgSreXcBk5IAF61oitpa/c140e462eeacdd57de4147f29141fdd6/Hemfrid_Piktogram_Boka_online_64x64px-01.svg"  className="h-12"  alt="img_icon"/>   
@@ -57,7 +57,7 @@ const Work=()=>{
  
  
      <div className=" ml-1 flex  flex-col items-center justify-center">
-         <div className="bg-[hsla(0,0%,100%,.4)]  self-center   h-36 w-36 flex items-center justify-center rounded-full">
+         <div className="bg-[hsla(0,0%,100%,.4)]  self-center   h-36 w-36 flex items-center justify-center rounded-full  hover:bg-white rotations">
  
        
              <img src="https://images.ctfassets.net/37vwfxlcawdb/2R9E1GsuoX27qaAe1YO2gB/d6880e276d8f8e5ac2cbed8440a957bb/Hemfrid_Piktogram_Kontorssta__d_64x64px-01.svg"  className="h-12"  alt="img_icon"/>   
@@ -88,7 +88,7 @@ const Work=()=>{
  
  
      <div className=" ml-1 flex  flex-col items-center justify-center">
-         <div className="bg-[hsla(0,0%,100%,.4)]  self-center   h-36 w-36 flex items-center justify-center rounded-full">
+         <div className="bg-[hsla(0,0%,100%,.4)]  self-center   h-36 w-36 flex items-center justify-center rounded-full  hover:bg-white rotations">
  
        
              <img src="https://images.ctfassets.net/37vwfxlcawdb/1NZbAfmuZTsGAuLez0utEC/dba8be94dd3c2ad48c39dde3296aea63/Hemfrid_Piktogram_Fo__nsterputs_64x64px-01.svg"  className="h-12"  alt="img_icon"/>   

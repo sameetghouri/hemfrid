@@ -16,7 +16,7 @@ const MHero=()=>{
         <div className="flex justify-start w-full">
             <input className="bg-white focus:border-none focus:outline-none  w-full text-black text-center text-lg p-3 rounded-md mt-10 placeholder-black font-bold cursor-pointer" placeholder="POSTCODE" />
         </div>
-        <div className="flex justify-center items-center  w-full bg-opacity-[0.6] bg-[#1e1e1e] text-lg font-bold mt-4 p-5 rounded-md">
+        <div className="flex justify-center items-center  w-full bg-opacity-80 hover:shadow-lg hover:shadow-black bg-[#1e1e1e] text-lg font-bold mt-4 p-5 rounded-md">
         
            <p className="text-center text-['#fff'] ">CONTINUE</p>
            

@@ -7,10 +7,10 @@ const Movingtip=()=>{
 </div>
 
 
-<div className="  h-fit   bg-[#f5f4f0]">
+<div className="py-24  h-fit bg-[#f5f4f0]">
         
 <div class="">
-    <h3 className="text-5xl font-medium pt-28">Moving & cleaning tips!</h3>
+    <h3 className="text-5xl font-medium ">Moving & cleaning tips!</h3>
     
  {/* line content */}
  <div className="w-full  flex  justify-center mt-8">
@@ -24,7 +24,7 @@ const Movingtip=()=>{
 
  {/* Box contetnt */}
 
- <div className="   mt-14  mx-24  h-fit   flex  overflow-hidden pb-24  ">
+ <div className="mt-14  mx-24  h-fit flex overflow-hidden pb-24  ">
 {/* column one */}
 <div className="flex flex-col justify-between items-start mr-7">
 
@@ -137,14 +137,12 @@ const Movingtip=()=>{
     
 {/* Button */}
 
-<div onClick className=" w-full flex items-center justify-center  pb-32  ">
-<div className="text-xl font-bold   rounded-md cursor-pointer border-black border  bg-transparent p-4 w-44">MORE TIPS</div>
-
-</div>
-
-
-
-
+<button className="px-5 py-3 text-lg font-semibold rounded-lg overflow-hidden relative group cursor-pointer bg-[#044946]  hover:scale-105 duration-[700ms]">
+                <span className="absolute w-64 h-0 transition-all duration-[700ms] origin-center rotate-45 -translate-x-20 bg-[#1fa299] top-1/2 group-hover:h-64 group-hover:-translate-y-32 ease"></span>
+                <span className="relative text-white transition duration-[700ms] group-hover:text-white ease">
+                    MORE TIPS
+                </span>
+            </button>
 
 
 
