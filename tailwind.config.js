@@ -9,8 +9,7 @@ module.exports = {
     extend: {
       colors: {
         'gr': '#1d1d1d',
-        'gr1':'#b5b5b5',
-        
+        'gr1':'#b5b5b5',        
         'sk': '#25abf4',
         'sk1':'#564DCA',
         'gre':'#18D48C',

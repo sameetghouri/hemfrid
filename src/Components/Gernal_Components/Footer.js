@@ -36,7 +36,7 @@ const Footer = () => {
                         </a>
                     </div>
                 </div>
-                <form className="flex bg-gr2 flex-col hover:scale-105 transition duration-300 rounded-xl w-11/12 lg:w-1/2 gap-6 py-3 px-4">
+                <form className="flex bg-gr flex-col hover:scale-105 transition duration-300 rounded-xl w-11/12 lg:w-1/2 gap-6 py-3 px-4">
                     <h2 className=" text-gray-300 text-xl font-bold text-start ">
                         Get in touch with us!
                     </h2>
