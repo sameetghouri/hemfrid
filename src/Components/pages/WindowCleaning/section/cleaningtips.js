@@ -5,7 +5,7 @@ const CleaningTips = () => {
         <div className="py-28  h-fit   bg-[#f5f4f0]">
 
             <div class="">
-                <h3 className="text-5xl font-medium ">Cleaning Cleaning & news</h3>
+                <h3 className="text-5xl font-medium ">Cleaning tips & news</h3>
 
                 {/* line content */}
                 <div className="w-full  flex  justify-center mt-8">

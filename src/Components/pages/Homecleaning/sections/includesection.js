@@ -1,4 +1,5 @@
 import './includesection.css'
+import { TbInfoSquareFilled } from 'react-icons/tb'
 import {
   Accordion,
   AccordionItem,
@@ -31,7 +32,7 @@ const Includesection = () => {
         "Cleaning bathtubs, showers, sinks, and toilets.",
         "Wipe off stains from walls.",
         "Wipe off bathroom cabinets and appliances.",
-        ]
+      ]
     },
     {
       heading: "Kitchen",
@@ -48,7 +49,7 @@ const Includesection = () => {
     {
       heading: "Our own cleaning products",
       title: "The cleaning service contract also includes our eco-friendly cleaning products which are delivered to your home and refilled when they run out.",
-      
+
     },
 
   ]
@@ -59,7 +60,7 @@ const Includesection = () => {
 
         <div className="pt-12 text-5xl font-bold">What is included in our <span className="text-yellow-300">Home</span> <span className='text-orange-600'>Cleaning</span>?</div>
         <div className="w-full mt-8  flex justify-center items-center">
-          <p className=" border-black border-2 w-20 text-center hover:w-[550PX] text-center transition-all duration-300 transform origin-center scale-100 delay-200 hover:border-gray-400" ></p>
+          <p className=" border-black border-2 w-20 hover:w-[550PX] text-center transition-all duration-300 transform origin-center scale-100 delay-200 hover:border-gray-400" ></p>
         </div>
         <div className="mt-8 text-lg leading-7  ">
           <p>It’s perfectly fine to need help sometimes, like with cleaning, for example. As one of our</p>
@@ -70,26 +71,29 @@ const Includesection = () => {
       </div>
 
       <div className='px-2 py-8 flex justify-center'>
-    <Accordion  allowMultiple className='grid lg:grid-cols-2 w-full max-w-6xl gap-8' >
-    {cleanmethods.map((item, index) => (
-    <AccordionItem className='col-span-1 ' key={index}>
-  <h2 className='font-xl font-semibold'>
-  <AccordionButton className='group'>
-  <Box as="span" flex='1' textAlign='left' className='text-3xl text-gray-800 hover:text-white'>
-    {item.heading}
-  </Box>
-  <AccordionIcon className="w-1200" />
-</AccordionButton>
-  </h2>
-            <AccordionPanel pb={4}>
-              <h3 className='text-start text-lg pb-1 font-semibold'>{item.title}</h3>
-              <ul className='list-disc text-start text-sl pl-5 space-y-3 text-gray-700'>
-              {item?.description?.map((item, index) => (
-                <li key={index}>{item}</li>
-              ))}
-              </ul>
-            </AccordionPanel>
-          </AccordionItem>
+        <Accordion allowMultiple className='grid lg:grid-cols-2 w-full max-w-6xl gap-8' >
+          {cleanmethods.map((item, index) => (
+            <AccordionItem className='col-span-1 ' key={index}>
+              <h2 className='font-xl font-semibold'>
+                <AccordionButton className='group'>
+                  <Box as="span" flex='1' textAlign='left' className='text-3xl text-gray-800 hover:text-fuchsia-800'>
+                  <div className='flex '>
+                      <TbInfoSquareFilled className='w-10  pr-2' />
+                      <h4>{item.heading}</h4>
+                    </div>
+                  </Box>
+                  <AccordionIcon className="w-1200" />
+                </AccordionButton>
+              </h2>
+              <AccordionPanel pb={4}>
+                <h3 className='text-start text-lg pb-1 font-semibold'>{item.title}</h3>
+                <ul className='list-disc text-start text-sl pl-5 space-y-3 text-gray-700'>
+                  {item?.description?.map((item, index) => (
+                    <li key={index}>{item}</li>
+                  ))}
+                </ul>
+              </AccordionPanel>
+            </AccordionItem>
           ))}
         </Accordion>
       </div>

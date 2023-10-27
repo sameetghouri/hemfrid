@@ -49,11 +49,11 @@ const Includesection = () => {
     <div className="py-14 bg-[#eae8e1] ">
       <div className="   relative  ">
 
-        <div className="pt-12 text-5xl font-bold">What is included in our window cleaning?</div>
+        <div className="pt-12 text-5xl font-bold">What is included in our <span className='text-green-500'>window cleaning?</span></div>
         <div className="w-full mt-8  flex justify-center items-center">
           <p className=" border-black border-2 w-20 text-center" ></p>
         </div>
-        <div className="mt-8 text-lg leading-7  ">
+        <div className="mt-8 text-lg leading-7 ">
           <p>When you wash windows yourself, it’s hard to do it really well. Use our skilled window</p>
           <p>cleaners, armed with squeegees, to remove both splashes and dirt</p>
 
@@ -67,7 +67,7 @@ const Includesection = () => {
             <AccordionItem className='col-span-1 ' key={index}>
               <h2>
                 <AccordionButton>
-                  <Box as="span" flex='1' textAlign='left' className='text-3xl text-gray-800'>
+                  <Box as="span" flex='1' textAlign='left' className='text-3xl text-gray-800 hover:text-fuchsia-800'>
                     <div className='flex '>
                       <TbInfoSquareFilled className='w-10  pr-2' />
                       <h4>{item.heading}</h4>
